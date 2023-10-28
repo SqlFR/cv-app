@@ -6,7 +6,7 @@ import exampleData from './example';
 import StudentDetail from './personnal-info/StudentDetail';
 import StudentInfoSection from './personnal-info/StudentInfoSection';
 
-function App() {
+function App() { 
 
   const [personnalDetail, setPersonnalDetail] = useState(exampleData.personnalDetail);
   const [studentDetail, setStudentDetail] = useState(exampleData.studentDetail);
@@ -61,3 +61,4 @@ function App() {
 
 
 export default App
+ 
