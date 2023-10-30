@@ -1,0 +1,35 @@
+#headerEditSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 4px;
+}
+
+.editSection {
+  display: flex;
+  flex-direction: column;
+  grid-column: 2/3;
+  gap: 32px;
+}
+
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.icon {
+  height: 16px;
+  cursor: pointer;
+  transform: rotate(180deg);
+}
+
+#iconPersonal {
+  transform: rotate(0);
+}
+

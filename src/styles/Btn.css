@@ -1,0 +1,37 @@
+.btn {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  width: 100px;
+  font-weight: 600;
+  height: 40px;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 6px;
+}
+
+.btnGroup {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+#btnHeaderEditSection {
+  background-color: white;
+  font-weight: 600;
+  border: none;
+  width: 140px;
+}
+
+#btnHeaderEditSection:first-child {
+  color: red;
+}
+
+#btnReset {
+  color: grey;
+  
+  
+}
+
+#btnSave {
+  color: green;
+}

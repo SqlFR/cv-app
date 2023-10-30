@@ -8,7 +8,8 @@ function Input({placeholder,
   return (
     <div className="inputGroup">
       <label htmlFor={dataKey}>{label}</label>
-      <input id={dataKey}
+      <input className='input'
+             id={dataKey}
              type={type}
              placeholder={placeholder}
              onChange={onChange} 

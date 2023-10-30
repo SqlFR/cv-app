@@ -1,0 +1,31 @@
+@import url(LeftSection.css);
+@import url(EditSection.css);
+@import url(ViewSection.css);
+@import url(Btn.css);
+@import url(Input.css);
+
+.main {
+  display: grid;
+  grid-template-columns: 2fr 3fr 4fr;
+  gap: 28px;
+}
+
+.section {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.1);
+  gap: 10px;
+}
+
+.titleSection {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+
+
